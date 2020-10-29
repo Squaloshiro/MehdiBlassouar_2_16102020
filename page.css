@@ -1,0 +1,78 @@
+body {
+    font-family: 'Raleway-VariableFont_wght'; src: url('police p2/Raleway-VariableFont_wght.ttf') ;
+    font-size: 13px; 
+    margin: 0px;
+    padding: 0px;
+}
+
+#blockpage{
+    margin: 30px;
+    padding: 30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+nav ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+    list-style-type: none;
+    margin-right: 15px;
+    color: #0065FC;
+}
+#pban{
+    display: flex;
+    flex-direction: column;
+    
+}
+#filtre ul{
+    display: flex;
+    padding: 0px;
+}
+#filtre li{
+    list-style-type: none;
+    margin-right: 22px;
+    margin-bottom: 0px;
+}
+footer{
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;
+    background-color:  #F2F2F2;
+}
+i{
+    color: #0065FC;
+    border:12px solid #DEEBFF;
+    background-color: #DEEBFF;
+    display: flex;
+    justify-self: start;
+    border-radius: 100% / 100%;
+}
+button{
+    border-radius: 15% / 55%;
+    margin-bottom: 0px;
+}
+article{
+    width: 600px;
+    height: 1000px;
+    border: #F2F2F2;
+}
+.sec1
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+
+article
+{
+    margin-right: 20px;
+    flex: 3;
+}
