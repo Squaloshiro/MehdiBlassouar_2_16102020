@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<link rel="stylesheet" href="page.css">!-->
+    <link rel="stylesheet" href="page.css">
     <script src="https://kit.fontawesome.com/c38b3b03f9.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
         <header>
-            <section>
-                    <a href="logo/Reservia@3x.png"><img src="logo/Reservia.svg" alt="logo"></a>
-                    <h2>Trouver votre hébergement pour des vacances de rêves</h2>
-                    <p>En plein centre ville ou en pleine nature</p>               
+            <section class="logo">
+                    <a href="logo/Reservia@3x.png"><img src="logo/Reservia.svg" alt="logo"></a>              
                 <nav>
                     <ul>
                         <li><a href="#Hébergements">Hébergements</a></li>
@@ -22,55 +20,57 @@
                 </nav>
             </section>
             <section>
-                    <nav>
-                        <i class="fas fa-map-marker-alt"></i>
-                        <input type="text" type="search" name="search" placeholder="Marseille, France">
-                        <input type="button" value="Rechercher" >
+                    <h2>Trouver votre hébergement pour des vacances de rêves</h2>
+                    <p>En plein centre ville ou en pleine nature</p> 
+                    <nav class="recherche">
+                        <i class="fas fa-map-marker-alt "></i>
+                        <input class="barre" type="search" name="search" placeholder="Marseille, France">
+                        <input class="bouton" type="button" value="Rechercher" >
                     </nav>
                     <aside>
-                        <ul >
-                            <li>
-                                Filtres
-                            </li>
-                            <li>
-                                <button class="favorite styled"type="button">
-                                <i class="fas fa-money-bill-wave"></i>
-                                Économique
-                                </button>
-                            </li>
-                            <li>
-                                <button class="favorite styled"type="button">
-                                <i class="fas fa-child"></i>
-                                Familiale
-                                </button>
-                            </li>
-                            <li>
-                                <button class="favorite styled"type="button">
-                                <i class="fas fa-heart"></i>
-                                Romantique
-                                </button>
-                            </li>
-                            <li>
-                                <button class="favorite styled"type="button">
-                                <i class="fas fa-dog"></i>
-                                Animaux autorisés
-                                </button>
-                            </li>
-                        </ul>
+                            <ul>
+                                <li>
+                                    Filtres
+                                </li>
+                                <li>
+                                    <button class="favorite styled" type="button">
+                                    <i class="fas fa-money-bill-wave"></i>
+                                    Économique
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="favorite styled" type="button">
+                                    <i class="fas fa-child"></i>
+                                    Familiale
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="favorite styled" type="button">
+                                    <i class="fas fa-heart"></i>
+                                    Romantique
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="favorite styled" type="button">
+                                    <i class="fas fa-dog"></i>
+                                    Animaux autorisés
+                                    </button>
+                                </li>
+                            </ul>
                     </aside>
                     <p><i class="fas fa-info-circle"></i> Plus de 500 logement sont disponibe dans cette ville</p>
             </section>
         </header>
 
         <section>
-            <h1 id="Hébergements">Hébergements à Marseille</h1>
+            <h2 id="Hébergements">Hébergements à Marseille</h2>
                 <article>
                         <figure>
                                 <a href="hebergements/1_xlarge/hebergement1.jpg"><img src="hebergements/4_small/hebergement1.jpg" alt="Auberge la Cannabière"></a>
                                 <figcaption>
                                             <strong>Auberge la Cannabière</strong>
                                             <p>
-                                                Nuit à partire de <strong>25€</strong>
+                                                Nuit à partir de <strong>25€</strong>
                                             </p>
                                             <p>
                                                 <i class="fas fa-star"></i>
@@ -88,7 +88,7 @@
                                 <figcaption>
                                             <strong>Hôtel du port</strong>
                                             <p>
-                                                Nuit à partire de <strong>25€</strong>
+                                                Nuit à partir de <strong>25€</strong>
                                             </p>
                                             <p>
                                                 <i class="fas fa-star"></i>
@@ -106,7 +106,7 @@
                                 <figcaption>
                                             <strong>Hôtel Les mouettes</strong>
                                             <p>
-                                                Nuit à partire de <strong>25€</strong>
+                                                Nuit à partir de <strong>25€</strong>
                                             </p>
                                             <p>
                                                 <i class="fas fa-star"></i>
@@ -124,7 +124,7 @@
                                 <figcaption>
                                             <strong>Hôtel de la mer</strong>
                                             <p>
-                                                Nuit à partire de <strong>25€</strong>
+                                                Nuit à partir de <strong>25€</strong>
                                             </p>
                                             <p>
                                                 <i class="fas fa-star"></i>
@@ -142,7 +142,7 @@
                                 <figcaption>
                                             <strong>Auberge Le Panier</strong>
                                             <p>
-                                                Nuit à partire de <strong>25€</strong>
+                                                Nuit à partir de <strong>25€</strong>
                                             </p>
                                             <p>
                                                 <i class="fas fa-star"></i>
@@ -160,7 +160,7 @@
                                 <figcaption>
                                             <strong>Hôtel chez Amina</strong>
                                             <p>
-                                                Nuit à partire de <strong>25€</strong>
+                                                Nuit à partir de <strong>25€</strong>
                                             </p>
                                             <p>
                                                 <i class="fas fa-star"></i>
@@ -175,14 +175,14 @@
         </section>
 
         <section> 
-                <h1>Les plus populaires <i class="fas fa-chart-line"></i></h1>     
+                <h2>Les plus populaires <i class="fas fa-chart-line"></i></h2>     
                 <article>
                         <figure>
                                 <a href="hebergements/1_xlarge/hebergement7.jpg"><img src="hebergements/4_small/hebergement7.jpg" alt="Hôtel Le soleil du matin"></a>
                                 <figcaption>
                                             <strong>Hôtel Le soleil du matin</strong>
                                             <p>
-                                                Nuit à partire de <strong>25€</strong>
+                                                Nuit à partir de <strong>25€</strong>
                                             </p>
                                             <p>
                                                 <i class="fas fa-star"></i>
@@ -200,7 +200,7 @@
                                 <figcaption>
                                             <strong>Au coeur de l'eau Chambres d'hôtes</strong>
                                             <p>
-                                                Nuit à partire de <strong>25€</strong>
+                                                Nuit à partir de <strong>25€</strong>
                                             </p>
                                             <p>
                                                 <i class="fas fa-star"></i>
@@ -218,7 +218,7 @@
                                 <figcaption>
                                             <strong>Hôtel Tous bleu et Blanc</strong>
                                             <p>
-                                                Nuit à partire de <strong>25€</strong>
+                                                Nuit à partir de <strong>25€</strong>
                                             </p>
                                             <p>
                                                 <i class="fas fa-star"></i>
@@ -233,7 +233,7 @@
         </section> 
 
         <section>
-                <h1 id="Activités">Activités à Marseille</h1>
+                <h2 id="Activités">Activités à Marseille</h2>
                 <article>
                         <figure>
                                 <a href="activites/1_xlarge/Activites1.jpg"><img src="activites/4_small/Activites1.jpg" alt="Vieux Port"></a>
@@ -286,20 +286,26 @@
 
         <footer>
             <section>
-                <strong>A propos</strong>
-                Fonctionnement du site
-                Conditions générales de vente
-                Données et confidentialité
+                    <ul>
+                        <li><strong>A propos</strong></li>
+                        <li>Fonctionnement du site</li> 
+                        <li>Conditions générales de vente</li> 
+                        <li>Données et confidentialité</li> 
+                    </ul>
             </section>
             <section>
-                <strong>Nos hébergements</strong>
-                Charte qualité
-                Soumettre votre hôtel
+                    <ul>
+                        <li><strong>Nos hébergements</strong></li>
+                        <li>Charte qualité</li> 
+                        <li>Soumettre votre hôtel</li> 
+                    </ul>
             </section>
             <section>
-                <strong>Assistance</strong>
-                Centre d'aide
-                Nous contacter
+                    <ul>
+                        <li><strong>Assistance</strong></li>
+                        <li>Centre d'aide</li> 
+                        <li>Nous contacter</li> 
+                    </ul>
             </section>
         </footer>
 </body>

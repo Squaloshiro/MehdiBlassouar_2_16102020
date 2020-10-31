@@ -1,22 +1,19 @@
 body {
     font-family: 'Raleway-VariableFont_wght'; src: url('police p2/Raleway-VariableFont_wght.ttf') ;
     font-size: 13px; 
-    margin: 0px;
+    margin: 60px;
     padding: 0px;
 }
 
-#blockpage{
-    margin: 30px;
-    padding: 30px;
-}
 
-header{
+.logo{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 nav ul{
     display: flex;
+    justify-content: space-around;
     margin: 0px;
     padding: 0px;
 }
@@ -25,20 +22,73 @@ nav li{
     list-style-type: none;
     margin-right: 15px;
     color: #0065FC;
+    list-style-type: none ;
+    margin-left: 100px;
 }
-#pban{
-    display: flex;
-    flex-direction: column;
-    
+nav a{
+    text-decoration: none;
 }
-#filtre ul{
+nav li:hover {
+    border-top: 5px solid #4C8;
+    background-color: rgba(64, 200, 130, 0.15);
+}
+
+.recherche{
     display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+.recherche i{
+    padding: 11px 14px 11px 14px ;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    border-top-left-radius:15px ;
+    border-bottom-left-radius:15px ;
+    font-size: 17px;
+    text-align: center;
+}
+
+.bouton{
+    height: auto;
+    padding: 11px 15px 11px 15px ;
+    border: 1px solid #0065FC;
+    background-color: #0065FC;
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    color: #DEEBFF;
+    font-weight: bold;
+}
+.barre{
+    padding: 11px 15px 11px 15px ;
+    border: 1px solid #F2F2F2;
+    font-weight: bold;
+}
+aside{
+    display: flex;
+    flex-direction: row;
+}
+aside ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 0px;
 }
-#filtre li{
+input{
+    text-decoration: none;
+    padding: 0px 10px 10px 10px ;
+}
+
+aside li{
+    border-radius: 30px ;
     list-style-type: none;
-    margin-right: 22px;
-    margin-bottom: 0px;
+    padding-right: 15px;
+    color: #0065FC;
+}
+aside i{
+    padding: 10px 10px 10px 10px ;
+    color: #0065FC;
+    border-radius: 100%/100%;
+    background-color: #DEEBFF;
 }
 footer{
     height: 80px;
@@ -46,14 +96,7 @@ footer{
     text-align: center;
     background-color:  #F2F2F2;
 }
-i{
-    color: #0065FC;
-    border:12px solid #DEEBFF;
-    background-color: #DEEBFF;
-    display: flex;
-    justify-self: start;
-    border-radius: 100% / 100%;
-}
+
 button{
     border-radius: 15% / 55%;
     margin-bottom: 0px;
