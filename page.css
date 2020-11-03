@@ -1,8 +1,9 @@
+
 body {
     font-family: 'Raleway-VariableFont_wght'; src: url('police p2/Raleway-VariableFont_wght.ttf') ;
-    font-size: 13px; 
-    margin: 60px;
-    padding: 0px;
+    font-size: 15px; 
+
+    margin: 30px 200px 30px 200px;
 }
 
 
@@ -11,27 +12,28 @@ body {
     justify-content: space-between;
     align-items: flex-start;
 }
+.inscrit{
+    margin-left: 40px;
+}
 nav ul{
     display: flex;
-    justify-content: space-around;
-    margin: 0px;
-    padding: 0px;
 }
 
 nav li{
-    list-style-type: none;
-    margin-right: 15px;
     color: #0065FC;
     list-style-type: none ;
-    margin-left: 100px;
 }
 nav a{
     text-decoration: none;
+    padding: 40px;
 }
-nav li:hover {
-    border-top: 5px solid #4C8;
-    background-color: rgba(64, 200, 130, 0.15);
+nav a:hover {
+    border-top: 5px solid #0065FC;
 }
+.heber1{
+    border-top: 5px solid #0065FC;
+}
+
 
 .recherche{
     display: flex;
@@ -47,7 +49,15 @@ nav li:hover {
     font-size: 17px;
     text-align: center;
 }
-
+input{
+    text-decoration: none;
+    padding: 0px 10px 10px 10px ;
+}
+.barre{
+    padding: 11px 15px 11px 15px ;
+    border: 1px solid #F2F2F2;
+    font-weight: bold;
+}
 .bouton{
     height: auto;
     padding: 11px 15px 11px 15px ;
@@ -58,64 +68,63 @@ nav li:hover {
     color: #DEEBFF;
     font-weight: bold;
 }
-.barre{
-    padding: 11px 15px 11px 15px ;
-    border: 1px solid #F2F2F2;
+
+
+.recherchefiltres {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.recherchfiltrenoicone{
+    margin: 0 30px 15px 0;
+    display: flex;
+    align-items: center;
+}
+.recherchfiltreicone {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    border: 2px solid #d9d9d9;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition-duration: 0.1s;
     font-weight: bold;
 }
-aside{
-    display: flex;
-    flex-direction: row;
+.recherchfiltreicone:last-child {
+    margin-right: 0;
 }
-aside ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
+.recherchfiltreicone:hover {
+    background-color: #f3f8ff;
+    transform: scale(1.015);
 }
-input{
-    text-decoration: none;
-    padding: 0px 10px 10px 10px ;
-}
-
-aside li{
-    border-radius: 30px ;
-    list-style-type: none;
-    padding-right: 15px;
-    color: #0065FC;
-}
-aside i{
-    padding: 10px 10px 10px 10px ;
-    color: #0065FC;
-    border-radius: 100%/100%;
+.rechercheicone {
     background-color: #DEEBFF;
-}
-footer{
-    height: 80px;
-    padding-top: 30px;
-    text-align: center;
-    background-color:  #F2F2F2;
-}
-
-button{
-    border-radius: 15% / 55%;
-    margin-bottom: 0px;
-}
-article{
-    width: 600px;
-    height: 1000px;
-    border: #F2F2F2;
-}
-.sec1
-{
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    min-height: 45px;
+    min-width: 45px;
     display: flex;
-    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: -2px;
+    color: #0065FC;
+    font-size: 20px;
+}
+
+.filtretitre{
+    margin: 0 15px;
 }
 
 
 
-article
-{
-    margin-right: 20px;
-    flex: 3;
-}
+
+
+
+
+
+
+
+
+
