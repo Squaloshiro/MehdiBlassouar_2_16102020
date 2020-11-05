@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Raleway-VariableFont_wght'; src: url('police p2/Raleway-VariableFont_wght.ttf') ;
-    font-size: 15px; 
+    font-size: 0.938em; 
     margin: 30px 200px 30px 200px;
 }
 
@@ -12,7 +12,7 @@ body {
     align-items: flex-start;
 }
 .inscrit{
-    margin-left: 40px;
+    margin-left: 2.5em;
 }
 nav ul{
     display: flex;
@@ -24,76 +24,109 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    padding: 40px;
+    padding: 2.5em;
     color: #0065FC;
 }
 nav a:hover {
-    border-top: 5px solid #0065FC;
+    border-top: 0.313em solid #0065FC;
 }
 .heber1{
-    border-top: 5px solid #0065FC;
+    border-top: 0.313em solid #0065FC;
     color: #0065FC;
 }
 /*Fin Partie logo et nav*/
 
 
 /*Header*/
+
+.grostitre{
+    font-size: 1.2em;
+}
 /*partie bouton de recherche*/
+
 .recherche{
     display: flex;
     align-items: flex-start;
-    margin-bottom: 15px;
+    margin-bottom: 0.938em;
 }
 .recherche i{
-    padding: 11px 14px 11px 14px ;
-    border: 1px solid #F2F2F2;
+    padding: 0.688em 0.875em 0.688em 0.875em ;
+    border: 0.063em solid #F2F2F2;
     background-color: #F2F2F2;
-    border-top-left-radius:15px ;
-    border-bottom-left-radius:15px ;
-    font-size: 17px;
+    border-top-left-radius:0.938em ;
+    border-bottom-left-radius:0.938em ;
+    font-size: 1.063em;
     text-align: center;
 }
 input{
     text-decoration: none;
-    padding: 0px 10px 10px 10px ;
+    padding: 0em 0.625em 0.625em 0.625em ;
 }
 .barre{
-    padding: 11px 15px 11px 15px ;
+    padding: 0.688em 0.938em 0.688em 0.938em ;
     border: 1px solid #F2F2F2;
     font-weight: bold;
 }
 .bouton{
     height: auto;
-    padding: 11px 15px 11px 15px ;
-    border: 1px solid #0065FC;
+    padding: 0.688em 0.938em 0.688em 0.938em ;
+    border: 0.063em solid #0065FC;
     background-color: #0065FC;
     border-top-right-radius:15px ;
     border-bottom-right-radius:15px ;
     color: #DEEBFF;
     font-weight: bold;
 }
+
+.logoiplustext{
+    display: flex;
+    align-items: center;
+}
+.logoi{
+    height: 2em;
+    width: 2em;
+    min-height: 2em;
+    min-height: 2em;
+    border:solid 1px #F2F2F2;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1em;
+
+}
+.logo1{
+    color: #0065FC;
+}
+.logoitext{
+
+}
+
+
+
+
 /*fin partie bouton de recherche*/
 
 /*Partie filtre*/
 .recherchefiltres {
     display: flex;
-    margin-top: 30px;
+    margin-top: 1.875em;
     flex-wrap: wrap;
 }
 .recherchfiltrenoicone{
-    margin: 0 30px 15px 0;
+    margin: 0 1.875em 0.938em 0;
     display: flex;
     align-items: center;
 }
 .recherchfiltreicone {
     display: flex;
     align-items: center;
-    margin-right: 30px;
-    border: 2px solid #d9d9d9;
-    border-radius: 30px;
-    margin-bottom: 15px;
+    margin-right: 1.875em;
+    border: 0.125em solid #d9d9d9;
+    border-radius: 1.875em;
+    margin-bottom: 0.938em;
     cursor: pointer;
-    transition-duration: 0.1s;
+    transition-duration: 0.2s;
     font-weight: bold;
 }
 
@@ -113,11 +146,11 @@ input{
     justify-content: center;
     margin: -2px;
     color: #0065FC;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .filtretitre{
-    margin: 0 15px;
+    margin: 0 0.938em;
 }
 /*fin partie Filtre*/
 /*Fin Header*/
@@ -126,26 +159,30 @@ input{
 
 /*Partie hébergement*/
 .hébergement img{
-height: 100px;
-width: 230px;
-border-top-right-radius:15px ;
-border-top-left-radius: 15px ;
+height: 6.25em;
+width: 14.375em;
+border-top-right-radius:0.938em ;
+border-top-left-radius: 0.938em ;
 }
 
 .hébergementglobal{
-height: 200px;
-width: 240px;
-border: 1px solid #DEEBFF;
-border-radius: 20px;
+height: 12.5em;
+width: 15em;
+border: 0.063em solid #DEEBFF;
+border-radius: 1.25em;
+padding-left: 0.25em;
+padding-top: 0.25em;
+box-shadow:0.063em 0.063em 0.063em 0.063em;
 
 }
 .hébergementglobal{
     display: flex;
-    align-items: center;
+    justify-content: flex-start;
     flex-direction: column;
 
 } 
-.hébergement{
+.hébergement a{
+    
  
 
 
