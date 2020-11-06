@@ -1,8 +1,23 @@
-
-body {
-    font-family: 'Raleway-VariableFont_wght'; src: url('police p2/Raleway-VariableFont_wght.ttf') ;
+@font-face{
+    font-family:'Raleway-ExtraLight.ttf';
+    src: url('Raleway-ExtraLight.ttf');
+}
+body{
+    font-family: 'Raleway-ExtraLight.ttf';
     font-size: 0.938em; 
-    margin: 30px 200px 30px 200px;
+    margin: 0px;
+    padding: 0px;
+}
+.blockpage{
+    margin: 1.875em 12.5em 1.875em 12.5em;
+    padding: 0px;
+}
+
+@media screen and (max-width:600px){
+    .blockpage{
+        margin: 0px;
+        padding: 0px;
+    }
 }
 
 /*Partie logo et nav*/
@@ -34,6 +49,26 @@ nav a:hover {
     border-top: 0.313em solid #0065FC;
     color: #0065FC;
 }
+
+
+@media screen and (max-width:600px) {
+    .logo{
+        grid-template-columns: auto 1fr auto;
+        grid-template-areas: "logo . button" "navbar navbar navbar";
+    }
+    .logoreservia{
+        order: 0;
+    }
+    li .inscrit{
+        order: 1;
+    }
+    li .respon1{
+        order: 2;
+    }
+}
+.respon1{}
+
+
 /*Fin Partie logo et nav*/
 
 
@@ -44,30 +79,33 @@ nav a:hover {
 }
 /*partie bouton de recherche*/
 
-.recherche{
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 0.938em;
+.boutonRecherche{
+    display: inline-flex;
+    max-width: 100%;
 }
-.recherche i{
-    padding: 0.688em 0.875em 0.688em 0.875em ;
-    border: 0.063em solid #F2F2F2;
+
+.Iconmap{
     background-color: #F2F2F2;
-    border-top-left-radius:0.938em ;
-    border-bottom-left-radius:0.938em ;
-    font-size: 1.063em;
+    padding: 0.9em 1.15em;
+    border-radius: 1em 0 0 1em;
     text-align: center;
+    justify-content: center;
 }
-input{
-    text-decoration: none;
-    padding: 0em 0.625em 0.625em 0.625em ;
+.iconmap{
+    margin-left: 0.1em;
+    font-size: 16px;
 }
+
 .barre{
-    padding: 0.688em 0.938em 0.688em 0.938em ;
-    border: 1px solid #F2F2F2;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #F2F2F2;
+    border-top:1px solid #F2F2F2;
+    height: auto;
     font-weight: bold;
+
 }
-.bouton{
+.boutonrecherche{
     height: auto;
     padding: 0.688em 0.938em 0.688em 0.938em ;
     border: 0.063em solid #0065FC;
@@ -76,6 +114,18 @@ input{
     border-bottom-right-radius:15px ;
     color: #DEEBFF;
     font-weight: bold;
+}
+
+
+@media screen and (min-width:500px){
+    .boutonrecherche i{
+        display: none;
+    }
+}
+@media screen and (max-width:501px){
+.textrecherche{
+    display: none;
+}
 }
 
 .logoiplustext{
@@ -144,7 +194,7 @@ input{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: -2px;
+    margin: -1px;
     color: #0065FC;
     font-size: 1.25em;
 }

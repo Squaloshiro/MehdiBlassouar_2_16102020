@@ -9,9 +9,10 @@
         <title>Reservia</title>
 </head>
 <body>
+    <div class="blockpage">
 <!--Partie logo et nav-->
         <section class="logo">
-                <a href="logo/Reservia@3x.png"><img src="logo/Reservia.svg" alt="logo du site reservia"></a>              
+                <a class ="logoreservia" href="logo/Reservia@3x.png"><img src="logo/Reservia.svg" alt="logo du site reservia"></a>              
                 <nav>
                     <ul>
                         <li><a class="heber1" href="#Hébergements">Hébergements</a></li>
@@ -26,12 +27,16 @@
                 <h1 class="grostitre">Trouver votre hébergement pour des vacances de rêves</h1>
                 <p>En plein centre ville ou en pleine nature</p>
                 <!--Bouton de recherche-->
-                
-                <nav class="recherche">
-                    <i class="fas fa-map-marker-alt "></i>
-                    <input class="barre" type="search" name="search" placeholder="Marseille, France">
-                    <input class="bouton" type="button" value="Rechercher" >
-                </nav>
+                <form action="" method="GET" class="boutonRecherche">
+                    <span class="Iconmap">
+                        <i class="fas fa-map-marker-alt iconmap "></i>
+                    </span>
+                    <input class="barre" type="search" name="search" placeholder="Marseille, France" >
+                    <button class="boutonrecherche">
+                        <span class="textrecherche">Recherche</span>
+                        <i class="fas fa-search petiticonrecherche"></i>
+                    </button>
+                </form>
                 <!--Filtres-->
                 <section class="recherchefiltres">
                         <p class="recherchfiltrenoicone">Filtres</p>
@@ -225,6 +230,7 @@
                         </p>
                 </article>
         </section>
+    </div>
 <!--Footer-->
         <footer>
                 <section>
