@@ -1,9 +1,9 @@
 @font-face{
-    font-family:'Raleway-ExtraLight.ttf';
-    src: url('Raleway-ExtraLight.ttf');
+    font-family:'Raleway-Medium.ttf';
+    src: url('Raleway-Medium.ttf');
 }
 body{
-    font-family: 'Raleway-ExtraLight.ttf';
+    font-family: 'Raleway-Medium.ttf';
     font-size: 0.938em; 
     margin: 0px;
     padding: 0px;
@@ -21,7 +21,39 @@ body{
 }
 
 /*Partie logo et nav*/
-.logo{
+.heber1, .heber2, .heber3{
+color : #0065FC;
+text-decoration: none;
+font-size: 1.2em;
+}
+.logo {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 70% 21% 9% ;
+
+}
+.logoreservia{
+}
+.navheb{
+display: flex;
+align-items: center;
+}
+.heber3{
+display: flex;
+align-items: center;
+margin-left: 25px ;
+}
+.heber1, .heber2{
+    margin-left: 58px;
+}
+
+
+
+
+
+
+
+/*.logo{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -39,7 +71,7 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    padding: 2.5em;
+    padding: 2.6em;
     color: #0065FC;
 }
 nav a:hover {
@@ -48,25 +80,27 @@ nav a:hover {
 .heber1{
     border-top: 0.313em solid #0065FC;
     color: #0065FC;
-}
+}*/
+
 
 
 @media screen and (max-width:600px) {
-    .logo{
-        grid-template-columns: auto 1fr auto;
-        grid-template-areas: "logo . button" "navbar navbar navbar";
-    }
-    .logoreservia{
-        order: 0;
-    }
-    li .inscrit{
-        order: 1;
-    }
-    li .respon1{
+    .inscrit{
+        display: flex;
+        justify-content: flex-end;
         order: 2;
     }
+    .respon1{
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        order: 1;
+    }
 }
-.respon1{}
+
+
+
+
 
 
 /*Fin Partie logo et nav*/
@@ -90,6 +124,7 @@ nav a:hover {
     border-radius: 1em 0 0 1em;
     text-align: center;
     justify-content: center;
+    color: black;
 }
 .iconmap{
     margin-left: 0.1em;
@@ -178,6 +213,7 @@ nav a:hover {
     cursor: pointer;
     transition-duration: 0.2s;
     font-weight: bold;
+    padding-right: 0.8em;
 }
 
 .recherchfiltreicone:hover {
@@ -187,8 +223,8 @@ nav a:hover {
 .rechercheicone {
     background-color: #DEEBFF;
     border-radius: 100%;
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     min-height: 45px;
     min-width: 45px;
     display: flex;
@@ -201,6 +237,14 @@ nav a:hover {
 
 .filtretitre{
     margin: 0 0.938em;
+    font-weight: bold;
+    padding-left: 0em;
+    font-size: 1.2em;
+}
+
+.recherchfiltrenoicone{
+    font-size: 1.2em;
+    font-weight: bold;
 }
 /*fin partie Filtre*/
 /*Fin Header*/
@@ -208,43 +252,136 @@ nav a:hover {
 /*2eme partie section Hébergement, populaire*/
 
 /*Partie hébergement*/
+.sectionheber{
+    width: 65%;
+    height: 39.5em;
+    background-color: #f2f2f2;
+    border-radius: 1.25em;
+    flex-wrap: wrap;
+    padding: 0.625em;
+    padding-left: 2.188em;
+    padding-right: 1.1em;
+    
+}
+
+
+.tableheber{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17.5em, 1fr ));
+    grid-gap: 2.5em;
+
+} 
+
+
+.hébergementglobal{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.313em 0.313em 0.313em 0.313em;
+    height: 13.5em;
+    width: 17.5em;
+    border: 0.063em solid #DEEBFF;
+    border-radius: 1.25em;
+    box-shadow:0 0 1em #0000002e;
+    background-color: white;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    }
+.hébergementglobal:hover{
+    transform: scale(1.02);
+}
+
 .hébergement img{
-height: 6.25em;
-width: 14.375em;
+height: 9em;
+width: 17.5em;
 border-top-right-radius:0.938em ;
 border-top-left-radius: 0.938em ;
 }
 
-.hébergementglobal{
-height: 12.5em;
-width: 15em;
-border: 0.063em solid #DEEBFF;
-border-radius: 1.25em;
-padding-left: 0.25em;
-padding-top: 0.25em;
-box-shadow:0.063em 0.063em 0.063em 0.063em;
+.hébergement2{
+    margin-top: 0.188em;
+}
+
+.star{
+    color: #0065FC;
+}
+
+.afficherplus{
+    margin-top:1.5em;
+}
+/*Fin section hébergement*/
+
+/*Partie section populaire*/
+
+.sectionpop{
+    width: 25%;
+    height: 39.5em;
+    background-color: #f2f2f2;
+    border-radius: 1.25em;
+    flex-wrap: wrap;
+    padding: 0.625em;
+    padding-left: 2.188em;
+    padding-right: 1.875em;
+    margin-left: 3em;
+}
+
+.tablepop{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.875em;
 
 }
-.hébergementglobal{
+
+.popglobal{
     display: flex;
     justify-content: flex-start;
-    flex-direction: column;
+    padding: 0.313em 0.313em 0.313em 0.313em;
+    height: 9em;
+    width: 23em;
+    border: 0.063em solid #DEEBFF;
+    border-radius: 1.25em;
+    box-shadow:0 0 1em #0000002e;
+    background-color: white;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    }
 
-} 
-.hébergement a{
+    .popglobal:hover{
+        transform: scale(1.02);
+    }
     
- 
-
-
-
-}
-.hébergement2{
-    justify-self:flex-start;
-
+.populaire1 img{
+    height: 9em;
+    width: 9em;
+    border-top-left-radius:0.938em ;
+    border-bottom-left-radius: 0.938em ;
 }
 
+.populaire2{
+    margin-left: 1.2em;
+}
 
 
+.star2{
+    color: #0065FC;
+    padding-top: 2.8em;
+}
+.star3{
+    color: #0065FC;
+    padding-top: 2.8em;
+}
+.legende{
+    font-size: 1.1em;
+    font-weight: 900;
+}
+.popicone{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heberpop{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
