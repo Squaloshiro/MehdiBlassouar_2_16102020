@@ -73,11 +73,10 @@ body {
 
 .navheb {
     display: flex;
-    align-items: center;
 }
 
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:768px) {
     .logo {
         display: flex;
         justify-content: space-between;
@@ -196,7 +195,7 @@ body {
 }
 
 
-@media screen and (min-width:601px) {
+@media screen and (min-width:376px) {
     .boutonrecherche i {
         display: none;
     }
@@ -341,7 +340,12 @@ body {
     color: #0065FC;
 }
 
-@media screen and (max-width:375px) {}
+@media screen and (max-width:768px) {
+    .logoi {
+        height: 1em;
+        width: 2.5em;
+    }
+}
 
 /*Fin Header*/
 
@@ -349,15 +353,11 @@ body {
 
 /*Partie hébergement*/
 .sectionheber {
-    height: auto
-        /*39.5em*/
-    ;
+    height: auto;
     background-color: #f2f2f2;
     border-radius: 1.25em;
     flex-wrap: wrap;
-    padding: 0.625em 1.8em 0.8em 2.188em;
-    /*padding-left: 2.188em;
-    padding-right: 1.1em;*/
+    padding: 0.625em 2.8em 0.8em 1.9em;
 }
 
 
@@ -429,7 +429,7 @@ a.hebergement {
     border-radius: 1.25em;
     flex-wrap: wrap;
     padding: 0.625em;
-    padding-left: 2.188em;
+    padding-left: 2.68em;
     padding-right: 1.875em;
     margin-left: 3em;
 }
@@ -498,7 +498,6 @@ a.hebergement {
 .heberpop {
     display: grid;
     grid-template-columns: 6fr 3fr;
-    grid-gap: 2em;
 }
 
 /*Fin partie populaire*/
@@ -506,7 +505,7 @@ a.hebergement {
     .heberpop {
         display: grid;
         grid-template-columns: 1fr;
-
+        grid-gap: 2em;
     }
 
     .sectionheber {
@@ -520,6 +519,7 @@ a.hebergement {
     .hébergementglobal {
         width: auto;
     }
+
     .sectionpop {
         padding: 2em 1em 2em 1em;
         margin-left: 0px;
@@ -539,6 +539,7 @@ a.hebergement {
     .heberpop {
         display: grid;
         grid-template-columns: 1fr;
+        grid-gap: 2em;
 
     }
 
@@ -553,6 +554,7 @@ a.hebergement {
     .hébergementglobal {
         width: auto;
     }
+
     .sectionpop {
         padding: 2em 1em 2em 1em;
         margin-left: 0px;
