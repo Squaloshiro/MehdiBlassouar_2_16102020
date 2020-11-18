@@ -347,7 +347,7 @@ body {
     }
 }
 
-@media screen and (min-width:601px)and(max-width:1366px) {
+@media screen and (min-width:601px) and (max-width:1366px) {
     .logoi {
         height: 1em;
         width: 2em;
