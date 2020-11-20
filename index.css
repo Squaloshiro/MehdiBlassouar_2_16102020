@@ -200,32 +200,39 @@ body {
         display: none;
     }
 }
-@media screen and (max-width:375px){
+
+@media screen and (max-width:375px) {
     .boutonRecherche {
         margin-left: 2em;
         max-width: 100%;
     }
+
     .textrecherche {
         display: none;
     }
+
     .boutonrecherche {
         border-radius: 15px;
         margin-left: -0.5em;
     }
 }
-@media screen and (min-width:376px) and (max-width:414px){
+
+@media screen and (min-width:376px) and (max-width:414px) {
     .boutonRecherche {
         margin-left: 3.2em;
         max-width: 100%;
     }
+
     .textrecherche {
         display: none;
     }
+
     .boutonrecherche {
         border-radius: 15px;
         margin-left: -0.5em;
     }
 }
+
 @media screen and (min-width:415px) and (max-width:600px) {
     .boutonRecherche {
         margin-left: 1em;
@@ -537,7 +544,8 @@ a.linksection {
     display: grid;
     grid-template-columns: 6fr 3fr;
 }
-.star4{
+
+.star4 {
     color: #f2f2f2;
 }
 
