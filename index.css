@@ -396,14 +396,15 @@ body {
     background-color: #f2f2f2;
     border-radius: 1.25em;
     flex-wrap: wrap;
-    padding: 0.625em 2.8em 0.8em 1.9em;
+    padding: 0.625em 2.8em 1.8em 1.9em;
 }
 
 
 .grillehebergements {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(17.5em, 1fr));
-    grid-gap: 3em;
+    /*grid-template-columns: repeat(auto-fill, minmax(17.5em, 1fr));*/
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
 }
 
 
@@ -411,8 +412,8 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     padding: 0.313em 0.313em 0.313em 0.313em;
-    height: 13.5em;
-    width: 18em;
+    height: 100%;
+    width: 100%;
     border: 0.063em solid #DEEBFF;
     border-radius: 1.25em;
     box-shadow: 0 0 1em #0000002e;
@@ -564,6 +565,12 @@ a.linksection {
         margin-left: 0px;
         border-radius: 0;
     }
+    .grillehebergements {
+        display: grid;
+        /*grid-template-columns: repeat(auto-fill, minmax(17.5em, 1fr));*/
+        grid-template-columns: 1fr;
+        grid-gap: 2em;
+    }
 
     .hebergementglobal {
         width: auto;
@@ -590,6 +597,12 @@ a.linksection {
         grid-template-columns: 1fr;
         grid-gap: 2em;
 
+    }
+    .grillehebergements {
+        display: grid;
+        /*grid-template-columns: repeat(auto-fill, minmax(17.5em, 1fr));*/
+        grid-template-columns: 1fr;
+        grid-gap: 2em;
     }
 
     .sectionhebergement {
