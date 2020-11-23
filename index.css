@@ -396,7 +396,7 @@ body {
     background-color: #f2f2f2;
     border-radius: 1.25em;
     flex-wrap: wrap;
-    padding: 0.625em 2.8em 1.8em 1.9em;
+    padding: 0.625em 2.8em 0.8em 1.9em;
 }
 
 
@@ -445,7 +445,7 @@ body {
 }
 
 .afficherplus {
-    margin-top: 1.5em;
+    margin-top: 2.5em;
 }
 
 .legendeimage {
