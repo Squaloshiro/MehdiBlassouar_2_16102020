@@ -204,6 +204,10 @@ body {
     .textrecherche {
         display: none;
     }
+    .boutonrecherche {
+        border-radius: 15px;
+        margin-left: -0.5em;
+    }
 }
 
 @media screen and (max-width:375px) {
@@ -216,10 +220,10 @@ body {
         display: none;
     }*/
 
-    .boutonrecherche {
+    /*.boutonrecherche {
         border-radius: 15px;
         margin-left: -0.5em;
-    }
+    }*/
 }
 
 @media screen and (min-width:376px) and (max-width:414px) {
@@ -232,10 +236,10 @@ body {
         display: none;
     }*/
 
-    .boutonrecherche {
+    /*.boutonrecherche {
         border-radius: 15px;
         margin-left: -0.5em;
-    }
+    }*/
 }
 
 @media screen and (min-width:415px) and (max-width:600px) {
@@ -252,10 +256,10 @@ body {
         display: none;
     }*/
 
-    .boutonrecherche {
+    /*.boutonrecherche {
         border-radius: 15px;
         margin-left: -0.5em;
-    }
+    }*/
 }
 
 /*fin partie bouton de recherche*/
