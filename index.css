@@ -200,6 +200,11 @@ body {
         display: none;
     }
 }
+@media screen and (max-width:600px){
+    .textrecherche {
+        display: none;
+    }
+}
 
 @media screen and (max-width:375px) {
     .boutonRecherche {
@@ -207,9 +212,9 @@ body {
         max-width: 100%;
     }
 
-    .textrecherche {
+    /*.textrecherche {
         display: none;
-    }
+    }*/
 
     .boutonrecherche {
         border-radius: 15px;
@@ -223,9 +228,9 @@ body {
         max-width: 100%;
     }
 
-    .textrecherche {
+    /*.textrecherche {
         display: none;
-    }
+    }*/
 
     .boutonrecherche {
         border-radius: 15px;
@@ -243,9 +248,9 @@ body {
         width: auto;
     }
 
-    .textrecherche {
+    /*.textrecherche {
         display: none;
-    }
+    }*/
 
     .boutonrecherche {
         border-radius: 15px;
