@@ -8,7 +8,6 @@ body {
     font-size: 0.938em;
     margin: 0px;
     padding: 0px;
-    max-width: ;
 }
 
 .blockpage {
@@ -398,16 +397,13 @@ body {
     border-radius: 1.25em;
     flex-wrap: wrap;
     padding: 0.625em 2.8em 0.8em 1.9em;
-    width: auto;
 }
 
 
 .grillehebergements {
     display: grid;
-    /*grid-template-columns: repeat(auto-fill, minmax(17.5em, 1fr));*/
-    grid-template-columns: 1fr 1fr 1fr;
-    /*grid-row: 17.5em;*/
-    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fill, minmax(17.5em, 1fr));
+    grid-gap: 3em;
 }
 
 
@@ -487,6 +483,7 @@ a.linksection {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1.875em;
+
 }
 
 .popglobal {
@@ -567,10 +564,6 @@ a.linksection {
         margin-left: 0px;
         border-radius: 0;
     }
-    .grillehebergements{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
 
     .hebergementglobal {
         width: auto;
@@ -606,11 +599,6 @@ a.linksection {
         margin-left: 0px;
         border-radius: 1.25em;
     }
-    .grillehebergements{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
 
     .hebergementglobal {
         width: auto;
@@ -640,6 +628,9 @@ a.linksection {
     grid-gap: 30px;
 }
 
+.photo1 {
+    grid-area: photo1;
+}
 
 .activiteimg {
     object-fit: cover;
