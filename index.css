@@ -11,7 +11,7 @@ body {
 }
 
 .blockpage {
-    margin: 0em 12.5em 0em 12.5em;
+    margin: 0em 7.5em 0em 7.5em;
     padding: 0px;
 }
 
@@ -543,7 +543,7 @@ a.linksection {
 
 .hebergementpopulair {
     display: grid;
-    grid-template-columns: 6fr 3fr;
+    grid-template-columns: 7fr 3fr;
 }
 
 .star4 {
