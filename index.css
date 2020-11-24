@@ -683,7 +683,7 @@ a.linksection {
     grid-row: 3/6;
 }
 
-.Activites {
+#Activites {
     margin: 2em 0em 2em 0em;
 }
 
@@ -725,7 +725,7 @@ a.linksection {
         grid-row: 6;
     }
 
-    .Activites {
+    #Activites {
         margin-left: 1em;
     }
 
